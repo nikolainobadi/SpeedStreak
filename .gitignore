@@ -1,0 +1,17 @@
+## User settings
+xcuserdata/
+xcshareddata/
+
+## Build generated
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+
+

@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D4235E042B8AC21D0061E964 /* SpeedStreakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4235E032B8AC21D0061E964 /* SpeedStreakApp.swift */; };
-		D4235E062B8AC21D0061E964 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4235E052B8AC21D0061E964 /* ContentView.swift */; };
 		D4235E082B8AC21E0061E964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4235E072B8AC21E0061E964 /* Assets.xcassets */; };
 		D4235E0B2B8AC21E0061E964 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4235E0A2B8AC21E0061E964 /* Preview Assets.xcassets */; };
+		D4235E162B8AC24F0061E964 /* LaunchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4235E002B8AC21D0061E964 /* SpeedStreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedStreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4235E032B8AC21D0061E964 /* SpeedStreakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedStreakApp.swift; sourceTree = "<group>"; };
-		D4235E052B8AC21D0061E964 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D4235E072B8AC21E0061E964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4235E0A2B8AC21E0061E964 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCoordinatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +51,8 @@
 		D4235E022B8AC21D0061E964 /* SpeedStreak */ = {
 			isa = PBXGroup;
 			children = (
-				D4235E032B8AC21D0061E964 /* SpeedStreakApp.swift */,
-				D4235E052B8AC21D0061E964 /* ContentView.swift */,
-				D4235E072B8AC21E0061E964 /* Assets.xcassets */,
+				D4235E112B8AC22E0061E964 /* Sources */,
+				D4235E122B8AC2320061E964 /* Resources */,
 				D4235E092B8AC21E0061E964 /* Preview Content */,
 			);
 			path = SpeedStreak;
@@ -65,6 +64,39 @@
 				D4235E0A2B8AC21E0061E964 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4235E112B8AC22E0061E964 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D4235E132B8AC2380061E964 /* App */,
+				D4235E142B8AC2430061E964 /* Launch */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D4235E122B8AC2320061E964 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4235E072B8AC21E0061E964 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4235E132B8AC2380061E964 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D4235E032B8AC21D0061E964 /* SpeedStreakApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D4235E142B8AC2430061E964 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */,
+			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4235E062B8AC21D0061E964 /* ContentView.swift in Sources */,
+				D4235E162B8AC24F0061E964 /* LaunchCoordinatorView.swift in Sources */,
 				D4235E042B8AC21D0061E964 /* SpeedStreakApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
