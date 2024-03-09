@@ -11,6 +11,7 @@
 		D4235E082B8AC21E0061E964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4235E072B8AC21E0061E964 /* Assets.xcassets */; };
 		D4235E0B2B8AC21E0061E964 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4235E0A2B8AC21E0061E964 /* Preview Assets.xcassets */; };
 		D4235E162B8AC24F0061E964 /* LaunchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */; };
+		D43A25612B9D263300A3BD4C /* NoCredentialLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A25602B9D263300A3BD4C /* NoCredentialLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D4235E072B8AC21E0061E964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4235E0A2B8AC21E0061E964 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCoordinatorView.swift; sourceTree = "<group>"; };
+		D43A25602B9D263300A3BD4C /* NoCredentialLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCredentialLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				D4235E132B8AC2380061E964 /* App */,
 				D4235E142B8AC2430061E964 /* Launch */,
+				D43A255F2B9D262200A3BD4C /* UI */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -97,6 +100,14 @@
 				D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		D43A255F2B9D262200A3BD4C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D43A25602B9D263300A3BD4C /* NoCredentialLoginView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43A25612B9D263300A3BD4C /* NoCredentialLoginView.swift in Sources */,
 				D4235E162B8AC24F0061E964 /* LaunchCoordinatorView.swift in Sources */,
 				D4235E042B8AC21D0061E964 /* SpeedStreakApp.swift in Sources */,
 			);
