@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52283A352BB7D9EC0025F137 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52283A342BB7D9EC0025F137 /* LoginCoordinator.swift */; };
 		52A73F3A2BAF4EA3002F7714 /* TempInAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A73F392BAF4EA3002F7714 /* TempInAppView.swift */; };
 		D4235E042B8AC21D0061E964 /* SpeedStreakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4235E032B8AC21D0061E964 /* SpeedStreakApp.swift */; };
 		D4235E082B8AC21E0061E964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4235E072B8AC21E0061E964 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52283A342BB7D9EC0025F137 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		52A73F392BAF4EA3002F7714 /* TempInAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempInAppView.swift; sourceTree = "<group>"; };
 		D4235E002B8AC21D0061E964 /* SpeedStreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedStreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4235E032B8AC21D0061E964 /* SpeedStreakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedStreakApp.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52283A332BB7D9D50025F137 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				52283A342BB7D9EC0025F137 /* LoginCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		D4235DF72B8AC21D0061E964 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		D4235E112B8AC22E0061E964 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				52283A332BB7D9D50025F137 /* Coordinators */,
 				D4235E132B8AC2380061E964 /* App */,
 				D4235E142B8AC2430061E964 /* Launch */,
 				D43A255F2B9D262200A3BD4C /* UI */,
@@ -185,6 +196,7 @@
 			files = (
 				D43A25612B9D263300A3BD4C /* NoCredentialLoginView.swift in Sources */,
 				D4235E162B8AC24F0061E964 /* LaunchCoordinatorView.swift in Sources */,
+				52283A352BB7D9EC0025F137 /* LoginCoordinator.swift in Sources */,
 				D4235E042B8AC21D0061E964 /* SpeedStreakApp.swift in Sources */,
 				52A73F3A2BAF4EA3002F7714 /* TempInAppView.swift in Sources */,
 			);

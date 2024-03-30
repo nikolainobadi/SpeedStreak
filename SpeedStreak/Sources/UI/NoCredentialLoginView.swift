@@ -25,7 +25,9 @@ struct NoCredentialLoginView: View {
     //
     // I think this was a point of confusion in our very first meeting, so if you have questions let me know.
     
-    let loginAction: () -> Void = {}
+    let loginAction: () -> Void = {
+        loginActionPushed()
+    }
     
     var body: some View {
         Button(action: {loginAction()}, label: {

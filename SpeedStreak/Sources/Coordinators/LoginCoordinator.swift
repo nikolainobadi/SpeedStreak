@@ -7,12 +7,28 @@
 
 import SwiftUI
 
-struct LoginCoordinator: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+//struct LoginCoordinator: View {
+//    var body: some View {
+//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//    }
+//}
 
-#Preview {
-    LoginCoordinator()
-}
+func loginActionPushed() {
+    struct LoginCoordinator: View {
+        var body: some View {
+                TempInAppView()
+        }
+    }}
+
+func logoutActionPushed() {
+    struct LoginCoordinator: View {
+        var body: some View {
+                NoCredentialLoginView()
+        }
+    }}
+
+
+
+//#Preview {
+//    LoginCoordinator()
+//}
