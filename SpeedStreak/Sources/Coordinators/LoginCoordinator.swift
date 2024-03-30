@@ -13,19 +13,19 @@ import SwiftUI
 //    }
 //}
 
-func loginActionPushed() {
-    struct LoginCoordinator: View {
-        var body: some View {
-                TempInAppView()
-        }
-    }}
-
-func logoutActionPushed() {
-    struct LoginCoordinator: View {
-        var body: some View {
-                NoCredentialLoginView()
-        }
-    }}
+//func loginActionPushed() {
+//    struct LoginCoordinator: View {
+//        var body: some View {
+//                TempInAppView()
+//        }
+//    }}
+//
+//func logoutActionPushed() {
+//    struct LoginCoordinator: View {
+//        var body: some View {
+//                NoCredentialLoginView()
+//        }
+//    }}
 
 
 
