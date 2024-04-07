@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52A73F3A2BAF4EA3002F7714 /* TempInAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A73F392BAF4EA3002F7714 /* TempInAppView.swift */; };
+		52A73F3A2BAF4EA3002F7714 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A73F392BAF4EA3002F7714 /* SettingsView.swift */; };
 		D4235E042B8AC21D0061E964 /* SpeedStreakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4235E032B8AC21D0061E964 /* SpeedStreakApp.swift */; };
 		D4235E082B8AC21E0061E964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4235E072B8AC21E0061E964 /* Assets.xcassets */; };
 		D4235E0B2B8AC21E0061E964 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4235E0A2B8AC21E0061E964 /* Preview Assets.xcassets */; };
 		D4235E162B8AC24F0061E964 /* LaunchCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */; };
 		D43A25612B9D263300A3BD4C /* NoCredentialLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43A25602B9D263300A3BD4C /* NoCredentialLoginView.swift */; };
+		D4FD7C792BC31B7200C54EE5 /* InAppCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD7C782BC31B7200C54EE5 /* InAppCoordinatorView.swift */; };
+		D4FD7C7B2BC31ECF00C54EE5 /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD7C7A2BC31ECF00C54EE5 /* SpeedometerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52A73F392BAF4EA3002F7714 /* TempInAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempInAppView.swift; sourceTree = "<group>"; };
+		52A73F392BAF4EA3002F7714 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D4235E002B8AC21D0061E964 /* SpeedStreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedStreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4235E032B8AC21D0061E964 /* SpeedStreakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedStreakApp.swift; sourceTree = "<group>"; };
 		D4235E072B8AC21E0061E964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4235E0A2B8AC21E0061E964 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCoordinatorView.swift; sourceTree = "<group>"; };
 		D43A25602B9D263300A3BD4C /* NoCredentialLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCredentialLoginView.swift; sourceTree = "<group>"; };
+		D4FD7C782BC31B7200C54EE5 /* InAppCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppCoordinatorView.swift; sourceTree = "<group>"; };
+		D4FD7C7A2BC31ECF00C54EE5 /* SpeedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				D4235E152B8AC24F0061E964 /* LaunchCoordinatorView.swift */,
+				D4FD7C782BC31B7200C54EE5 /* InAppCoordinatorView.swift */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -108,7 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				D43A25602B9D263300A3BD4C /* NoCredentialLoginView.swift */,
-				52A73F392BAF4EA3002F7714 /* TempInAppView.swift */,
+				52A73F392BAF4EA3002F7714 /* SettingsView.swift */,
+				D4FD7C7A2BC31ECF00C54EE5 /* SpeedometerView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -185,8 +191,10 @@
 			files = (
 				D43A25612B9D263300A3BD4C /* NoCredentialLoginView.swift in Sources */,
 				D4235E162B8AC24F0061E964 /* LaunchCoordinatorView.swift in Sources */,
+				D4FD7C7B2BC31ECF00C54EE5 /* SpeedometerView.swift in Sources */,
 				D4235E042B8AC21D0061E964 /* SpeedStreakApp.swift in Sources */,
-				52A73F3A2BAF4EA3002F7714 /* TempInAppView.swift in Sources */,
+				D4FD7C792BC31B7200C54EE5 /* InAppCoordinatorView.swift in Sources */,
+				52A73F3A2BAF4EA3002F7714 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

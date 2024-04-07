@@ -12,7 +12,7 @@ struct LaunchCoordinatorView: View {
     
     var body: some View {
         if hasLogInCredentials {
-            TempInAppView(logoutAction: logout)
+            InAppCoordinatorView(logoutAction: logout)
         } else {
             NoCredentialLoginView(loginAction: login)
         }
@@ -29,9 +29,7 @@ private extension LaunchCoordinatorView {
     func login() {
         hasLogInCredentials = true
     }
-}
-
-private extension LaunchCoordinatorView {
+    
     func logout() {
         hasLogInCredentials = false
     }

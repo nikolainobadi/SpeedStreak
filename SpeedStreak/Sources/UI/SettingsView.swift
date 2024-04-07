@@ -1,5 +1,5 @@
 //
-//  TempInAppView.swift
+//  SettingsView.swift
 //  SpeedStreak
 //
 //  Created by John on 3/23/24.
@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-struct TempInAppView: View {
-    
+struct SettingsView: View {
     let logoutAction: () -> Void
     
     var body: some View {
@@ -25,5 +24,7 @@ struct TempInAppView: View {
 }
 
 #Preview {
-    TempInAppView(logoutAction: { })
+    SettingsView(logoutAction: { })
 }
+
+
