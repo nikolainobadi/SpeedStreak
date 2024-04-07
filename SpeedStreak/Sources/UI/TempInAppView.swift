@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct TempInAppView: View {
+    
+    let logoutAction: () -> Void
+    
     var body: some View {
-        Text("YES!! YOU GOT LOG IN CREDENTIALS!")
+        VStack {
+            Spacer()
+            Text("YES!! YOU GOT LOG IN CREDENTIALS!")
+            Spacer()
+            Button("Log Out", action: logoutAction)
+                .buttonStyle(.borderedProminent)
+            Spacer()
+        }
+        
     }
 }
 
 #Preview {
-    TempInAppView()
+    TempInAppView(logoutAction: { })
 }
